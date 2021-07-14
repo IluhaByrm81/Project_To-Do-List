@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+   margin: 0 auto;
+}
+
+.container {
+   width: 1440px;
+}
+
+.header-color {
+   width: 333px;
+   height: 28px;
+   background: #FFDC40;
+   border-radius: 10px 10px 0 0;
+}
+
+h1 {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 26px;
+   line-height: 30px;
+   text-align: center;
+   text-transform: capitalize;
+   color: #000000;
+   margin-top: 18px;
+}
+
+/* *************************************** */
+
+.icon-sort {
+   margin: 16px 0 0px 255px;
+   cursor: pointer;
+}
+
+.sort-white-down {
+   margin: 0px 0 0px 24px;
+   width: 25px;
+   height: 15px;
+   background: url(./images/sort-white-down.png);
+}
+
+.sort-white-down:hover {
+   background: url(./images/sort-black-down.png);
+}
+
+.sort-white-up {
+   width: 25px;
+   height: 15px;
+   background: url(./images/sort-white-up.png);
+}
+
+.sort-white-up:hover {
+   background: url(./images/sort-black-up.png);
+}
+
+/* ****************************************** */
+
+.todolist {
+   width: 286px;
+   height: auto;
+   margin: 7px 0 12px 28px;
+   border: 1px solid #C4C4C4;
+   box-sizing: border-box;
+   border-radius: 10px;
+}
+/* .todolist:hover {
+   border: 2px solid #2f3be6;
+} */
+
+input {
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 20px;
+   outline: none;
+   border: none;
+   margin: 8px 0px 10px 27px;
+}
+
+.icon-delete {
+   cursor: pointer;
+   margin: 10px 0 0 25px;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   background: url(./images/white-cross.png);
+   box-sizing: border-box;
+   border-radius: 71px;   
+}
+
+.icon-delete:hover {
+   background: url(./images/delete-hover.png);
+}
+
+.forma {
+   margin: 232px 0 232px 232px;
+   width: 336px;
+   border: 1px solid #C4C4C4;
+   box-sizing: border-box;
+   border-radius: 10px;
+}
+
+
+/* ************************************** */
+
+.form-input-icon {
+   width: 20px;
+   height: 20px;
+   background: url(./images/white-cross.png);
+   box-sizing: border-box;
+   border-radius: 71px;   
+}
+
+.form-input-icon:hover {
+   background: url(./images/delete-hover.png);
+   cursor: pointer;
+
+}
+
+.input-icon {
+   margin: 10px 0 0 26px;
+   box-sizing: border-box;
+   border-radius: 71px;
+   background: url(./images/white-cross.png);
+}
+
+.input-str-delete {
+   text-decoration-line: underline;
+}
+
+/* ************************************** */
+
+.btn-img {
+   margin: 4px 0 15px 92px;
+   cursor: pointer;
+}
+
+.btn {
+   margin: 10px 0 0px 91px;
+}
+
+.btn-img:hover {
+   border: 2px solid #2f3be6;
+   border-radius: 35px;
+}
